@@ -8,7 +8,7 @@ const path=require("path");
 
 const corsOptions = {
     credentials: true,
-    origin: 'https://jobminar1.vercel.app/', 
+    origin: 'https://jobminar1.vercel.app', 
     optionsSuccessStatus: 200,
   };
 
