@@ -12,8 +12,10 @@ export default function LoginPage(){
             credentials:'include'
         })
         if(response.status===200){
+            console.log("login success");
             alert("Login Succesful");
         }else{
+            console.log("incorrect credentials");
             alert('wrong credentials');
         }
     }
