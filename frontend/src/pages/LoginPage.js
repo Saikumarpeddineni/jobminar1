@@ -24,7 +24,7 @@ export default function LoginPage(){
             <h1>Login Page</h1>
             <form onSubmit={onLogin} className='register-content'>
                 <div className='input-field-container'>
-                <label htmlFor='username'>UserName</label>
+                <label htmlFor='username'>User Name</label>
                 <input id='username' placeholder='Enter UserName' type="text" value={username} onChange={(e)=>{setUserName(e.target.value)}}/>
                 </div>
                 <div className='input-field-container'>
