@@ -14,7 +14,7 @@ export default function RegisterPage(){
         if(res.status===200){
             alert('Registration Successful!');
         }else{
-            alert('Unsuccessful Registration. Try again later!!');
+            alert('Unsuccessful Registration. Try again later!!!');
         }
     }
 
