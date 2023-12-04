@@ -50,7 +50,7 @@ app.post("/login",async (req,res)=>{
 });
 
 app.listen(4001,()=>{
-    console.log("Server listening on port 4001");
+    console.log("Server listening");
 });
 
 //mongodb+srv://saikumarpeddineni18:TjnhWDE8XiQ5F0d0@jobminar.sykrkd8.mongodb.net/?retryWrites=true&w=majority
