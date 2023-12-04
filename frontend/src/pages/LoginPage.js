@@ -4,7 +4,8 @@ export default function LoginPage(){
     const [username,setUserName]=useState('');
     const [password,setPassword]=useState('');
 
-    const onLogin=async ()=>{
+    const onLogin=async (e)=>{
+        e.preventDefault();
         const response = await fetch('https://jobminartask.onrender.com/login',{
             method:'POST',
             body:JSON.stringify({username,password}),
@@ -32,7 +33,7 @@ export default function LoginPage(){
                 <label htmlFor='password'>Password</label>
                 <input id="password" placeholder='Enter Password' type='password' value={password} onChange={(e)=>{setPassword(e.target.value)}} />
                 </div>
-                <button type='submit'>Login</button>
+                <button type="submit">Login</button>
             </form>
             <a href='/'>Return Home</a>
         </div>
