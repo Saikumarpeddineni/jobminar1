@@ -5,7 +5,7 @@ export default function LoginPage(){
     const [password,setPassword]=useState('');
 
     const onLogin=async ()=>{
-        const response = await fetch('http://localhost:4001/login',{
+        const response = await fetch('https://jobminartask.onrender.com/login',{
             method:'POST',
             body:JSON.stringify({username,password}),
             headers:{'Content-Type':'application/json'},

@@ -6,7 +6,7 @@ export default function RegisterPage(){
 
     const onRegister=async (e)=>{
         e.preventDefault();
-        const res = await fetch('http://localhost:4001/register',{
+        const res = await fetch('https://jobminartask.onrender.com/register',{
             method:'POST',
             body:JSON.stringify({username,password}),
             headers:{'Content-Type':'application/json'}
