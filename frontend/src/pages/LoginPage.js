@@ -15,7 +15,7 @@ export default function LoginPage(){
             console.log(response);
             alert("Login Succesful");
         }else{
-            alert('wrong credentials')
+            alert('wrong credentials');
         }
     }
 
